@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #4b83d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 4rem;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.25rem;
+    max-width: 75rem;
+}
+
+.section {
+    width: 13.75rem;
+}
+
+.section img {
+    width: 100%;
+    border-radius: 0.3125rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.625rem;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-top: 0.3125rem;
+    line-height: 1.4;
+}
+
+header {
+    background-color: #436eae;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.site-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+}
+
+header {
+    background-color: #436DAD;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 2rem; 
+} 
+
+.section img {
+    width: 100%;
+    border: 6px solid #ffddc1;
+    border-radius: 0;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background: linear-gradient(to bottom, #5b8dd8, #9dc2d8);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #436DAD;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 2rem; 
+}
+
+ul, li {
+    list-style: none;
+}
+
+.site-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 2rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #A1C4F5;
+}
