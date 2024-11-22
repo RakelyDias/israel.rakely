@@ -64,7 +64,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     color: white;
-    padding: 0 2rem;
+    padding: 0.2rem;
 }
 
 .hero-overlay {
@@ -119,8 +119,4 @@ a {
     font-weight: bold;
     width: fit-content;
     transition: background-color 0.3s;
-}
-
-a:hover {
-    background-color: #5A82DB;
 }
